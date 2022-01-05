@@ -1,0 +1,57 @@
+.text {
+  font-size: 160px;
+  color: white;
+}
+
+.footer-text {
+  font-size: 30px;
+  color: white;
+}
+
+.godmode {
+  width: 25%;
+}
+.navbar-section {
+  max-width: 100vh;
+}
+
+.nav-menu {
+  align-self: end;
+}
+
+.myfont {
+  /* font-family: "Bilbo Swash Caps", cursive; */
+  font-family: "Kolker Brush", cursive;
+  /* font-family: "Vujahday Script", cursive; */
+}
+
+.logo {
+  width: 75%;
+}
+
+@media screen and (max-width: 960px) {
+  .logo-section {
+    flex-direction: column;
+  }
+
+  .text {
+    font-size: 100px;
+    margin-top: -25px;
+    margin-bottom: -25px;
+  }
+
+  .logo {
+    width: 65%;
+  }
+
+  .nav-menu {
+    left: 200%;
+    align-self: start;
+  }
+  .contact-link {
+    padding-left: 15px;
+  }
+  .godmode {
+    width: 75%;
+  }
+}
