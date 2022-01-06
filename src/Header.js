@@ -11,7 +11,7 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 
 const Header = () => {
   return (
-    <div className="d-flex flex-column justify-content-between h-100">
+    <div className="d-flex flex-column justify-content-between main-section">
       <div className="nav-menu d-flex justify-content-start navbar-section">
         <Navbar collapseOnSelect expand="lg" bg="black" variant="dark">
           <Container>
@@ -19,20 +19,23 @@ const Header = () => {
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="me-auto"></Nav>
               <Nav>
-                <Nav.Link href="mailto:talha23c@hotmail.com">
+                <Nav.Link
+                  href="mailto:talha23c@hotmail.com?subject=slivermuse"
+                  className="header-link"
+                >
                   <img
                     loading="lazy"
                     src={contact}
                     alt="contact"
-                    className="w-50 contact-link"
+                    className="contact-link"
                   />
                 </Nav.Link>
-                <Nav.Link eventKey={2}>
+                <Nav.Link eventKey={2} className="header-link">
                   <img
                     loading="lazy"
                     src={about}
                     alt="about"
-                    className="w-50 p-4 pt-0"
+                    className="about-link"
                   />
                 </Nav.Link>
               </Nav>

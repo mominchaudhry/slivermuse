@@ -16,7 +16,7 @@
 }
 
 .nav-menu {
-  align-self: end;
+  align-self: flex-end;
 }
 
 .myfont {
@@ -26,7 +26,29 @@
 }
 
 .logo {
+  height: 65vh;
+}
+
+.main-section {
+  min-height: 100vh;
+}
+
+.header-link {
+  width: 200px;
+}
+
+.contact-link {
   width: 75%;
+}
+
+.about-link {
+  width: 60%;
+}
+
+@media screen and (max-width: 1300px) {
+  .text {
+    font-size: 100px;
+  }
 }
 
 @media screen and (max-width: 960px) {
@@ -42,16 +64,22 @@
 
   .logo {
     width: 65%;
+    height: 65%;
   }
 
   .nav-menu {
     left: 200%;
-    align-self: start;
+    align-self: flex-start;
   }
   .contact-link {
     padding-left: 15px;
   }
   .godmode {
     width: 75%;
+  }
+
+  .about-link {
+    width: 70%;
+    padding: 20px;
   }
 }
