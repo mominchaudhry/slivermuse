@@ -30,14 +30,6 @@ const Header = () => {
                     className="contact-link"
                   />
                 </Nav.Link>
-                <Nav.Link eventKey={2} className="header-link">
-                  <img
-                    loading="lazy"
-                    src={about}
-                    alt="about"
-                    className="about-link"
-                  />
-                </Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>
