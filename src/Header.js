@@ -1,7 +1,6 @@
 import React from "react";
 import "./Header.css";
 import contact from "./Assets/contact.png";
-import about from "./Assets/about.png";
 import instagram from "./Assets/instagram.png";
 import tiktok from "./Assets/tiktok.png";
 import youtube from "./Assets/youtube.png";
